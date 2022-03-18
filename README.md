@@ -14,8 +14,7 @@ in play, it is not interruptable by priorty loop. But mannual control were
 abled to interrupt.
 
 # 介绍
-该项目旨在集成到大型组态软件中，如
-音频播放库，例如警报。
+该项目旨在作为一个音频播放库集成到大型组态软件中，例如警报播放系统。
 
 这个库的主要结构是队列和优先级。 有 8 个不同的优先级的队列由库集成，
 每个优先级都有一个队列。 最高优先级的队列为空时，递归地自动进入下一
